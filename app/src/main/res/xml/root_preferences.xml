@@ -1,0 +1,21 @@
+<PreferenceScreen xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <PreferenceCategory app:title="@string/news_filter">
+
+        <EditTextPreference
+            app:key="@string/section_key"
+            app:title="@string/section_title"
+            app:defaultValue="@string/section_value"
+            app:useSimpleSummaryProvider="true" />
+
+        <ListPreference
+            app:defaultValue="@string/order_by_value"
+            app:entries="@array/settings_order_by_labels"
+            app:entryValues="@array/settings_order_by_values"
+            app:key="@string/order_by_key"
+            app:title="@string/order_by_title"
+            app:useSimpleSummaryProvider="true" />
+
+    </PreferenceCategory>
+
+</PreferenceScreen>

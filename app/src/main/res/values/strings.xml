@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">News Feed</string>
+<!--    API KEY-->
+    <string name="API_KEY">9c8597ea-8d08-4c71-aaee-aaa1a1782491</string>
+
+    <string name="title">Title</string>
+    <string name="date">Date</string>
+    <string name="more_info">More info…</string>
+    <string name="section_name">Section Name</string>
+    <string name="thumbnail">thumbnail</string>
+    <string name="settings_menu_item">Settings</string>
+    <string name="title_activity_settings">SettingsActivity</string>
+
+    <string name="header_title">
+        Filter Keyword : %1$s
+    </string>
+    <string name="no_result">No Result.</string>
+    <string name="no_internet">No Internet Connection.</string>
+
+    <!-- Preference Titles -->
+    <string name="news_filter">News Filter</string>
+
+    <!-- Section Preferences -->
+    <string name="section_title">Filter Keyword</string>
+    <string name="section_key">section</string>
+    <string name="section_value">Football</string>
+
+  <!-- Order By Preferences -->
+    <string name="order_by_title">Order By</string>
+    <string name="order_by_key">order_by</string>
+    <string name="order_by_value">newest</string>
+
+</resources>
